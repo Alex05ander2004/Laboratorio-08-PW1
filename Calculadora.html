@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="shortcut icon" href="https://e1.pngegg.com/pngimages/785/690/png-clipart-android-lollipop-icons-calculator-calculator-icon-thumbnail.png">
+    <link rel="stylesheet" href="css/calculadoracss.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <section class="calculo";> 
+    <center>
+    <h1 class="tit">CALCULADORA UNSA</h1>
+    <div><img class="UNSA" src="https://www.unsa.edu.pe/ouresponsabilidadsocial/wp-content/themes/observatorio/img/unsa-logo.png"></div>
+    <form action="cgi-bin/operacion.pl" method="GET">
+        <input class ="numeros" type="number" name="numero1" placeholder="Ingrese el primer número"> 
+        <select class="operador" name="operadores">
+            <option value="suma">+</option>
+            <option value="resta">-</option>
+            <option value="multiplicacion">*</option>
+            <option value="division">/</option>
+            <option value="potencia">^</option>
+          </select> 
+        <input class="numeros" type="number" name="numeros2" placeholder="Ingrese el segundo número"> <br>  
+        <input class="boton" type="submit" value="Enviar">
+    </form>
+    </center>
+    </section>
+</body>>
+</html>
